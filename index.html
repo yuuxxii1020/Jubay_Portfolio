@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Francis John Jubay — Professional photographer specializing in landscapes, portraits, weddings, and event photography. Capturing moments that last a lifetime.">
+  <meta name="keywords"
+    content="Francis John Jubay, photographer, photography portfolio, wedding photographer, landscape photography, portrait photography">
+  <meta name="author" content="Francis John Jubay">
+  <title>Francis John Jubay | Photography Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-shutter"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-close" id="lightbox-close">✕</div>
+    <img src="" alt="Expanded photo" id="lightbox-img">
+  </div>
+
+  <!-- Admin Badge -->
+  <div class="admin-badge" id="admin-badge">Admin Mode Active</div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">Francis<span>.</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero.png" alt="Stunning landscape by Francis John Jubay">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Visual Storyteller</p>
+      <h1 class="hero-title">
+        Francis John Jubay
+        <span>Capturing Life Through the Lens</span>
+      </h1>
+      <p class="hero-subtitle">
+        Transforming fleeting moments into timeless visual stories.
+        Every frame tells a story worth remembering.
+      </p>
+      <a href="#portfolio" class="hero-cta">View My Work →</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="about-grid reveal">
+      <div class="about-image-wrapper">
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="Francis John Jubay portrait">
+        </div>
+      </div>
+      <div class="about-text">
+        <h3>About Me</h3>
+        <h2>Passionate About Capturing Authentic Moments</h2>
+        <p>
+          I’m Francis John Jubay, a photographer based in the Philippines,
+          driven by a passion for capturing stories through the smallest
+          details and the rawness of everyday life.
+        </p>
+        <p>
+          From the intricate beauty of macro subjects to the candid rhythm of street scenes,
+          I focus on moments that often go unnoticed. My work explores aesthetic compositions
+          and the natural world—where light, texture, and emotion come together to create something timeless.
+        </p>
+        <p>
+          Through macro, street, aesthetic, and nature photography, I aim to transform
+          ordinary moments into meaningful visual stories—each frame crafted with intention,
+          depth, and a sense of wonder.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <h4>2+</h4>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-item">
+            <h4>60+</h4>
+            <p>Projects Done</p>
+          </div>
+          <div class="stat-item">
+            <h4>20+</h4>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="section-header reveal">
+      <span class="section-tag">What I Offer</span>
+      <h2 class="section-title">Photography Services</h2>
+      <div class="section-line"></div>
+      <p class="section-desc">
+        Professional photography services tailored to capture your most precious moments with artistry and precision.
+      </p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <span class="service-icon">🏙️</span>
+        <h3>Street Photography</h3>
+        <p>Finding meaning in everyday life through candid urban moments. From busy streets to subtle human
+          interactions, each image tells a genuine story unfolding in real time.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-icon">🌱</span>
+        <h3>Macro Photography</h3>
+        <p>Exploring the unseen through close-up perspectives. Highlighting textures, patterns, and fine details that
+          often go unnoticed, turning the smallest subjects into striking visual art.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-icon">⋆.𐙚 ̊</span>
+        <h3>Aesthetic</h3>
+        <p>Focusing on mood, composition, and visual harmony. Blending light, color, and emotion to create images that
+          are not only beautiful but deeply expressive and timeless.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="service-icon">🌿</span>
+        <h3>Nature Landscape</h3>
+        <p>Capturing the raw beauty of the natural world—from serene landscapes to the intricate details of plants and
+          wildlife. Every frame reflects the harmony, depth, and quiet power of nature.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section portfolio" id="portfolio">
+    <div class="section-header reveal">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Featured Gallery</h2>
+      <div class="section-line"></div>
+      <p class="section-desc">
+        A curated selection of my best works across various genres and styles.
+      </p>
+    </div>
+    <div class="portfolio-filter reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="street">Street</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="macro">Macro</button>
+      <button class="filter-btn" data-filter="aesthetic">Aesthetic</button>
+    </div>
+    <div class="portfolio-grid" id="portfolio-grid">
+      <div class="portfolio-item wide reveal" data-category="nature">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/nature_user.jpg" alt="Golden sunset landscape">
+        <div class="portfolio-overlay">
+          <h3>Golden Sunrise</h3>
+          <p>Nature</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="nature">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/nature_2.jpg" alt="Mountains with field in foreground">
+        <div class="portfolio-overlay">
+          <h3>Nature's Serenity</h3>
+          <p>Nature</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="street">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/streetm.jpg" alt="Red neon pavilion at night">
+        <div class="portfolio-overlay">
+          <h3>Night Pavilion</h3>
+          <p>Street</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="macro">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/macro1.jpg" alt="Tiny seedling sprouting from soil">
+        <div class="portfolio-overlay">
+          <h3>New Beginnings</h3>
+          <p>Macro</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="aesthetic">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/aesthetic1.jpg" alt="Pink sky parking lot aesthetic">
+        <div class="portfolio-overlay">
+          <h3>Pink Hour</h3>
+          <p>Aesthetic</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="aesthetic">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/aesthetic2.jpg" alt="Power lines against moody sky">
+        <div class="portfolio-overlay">
+          <h3>Wired with Gloomy Skies</h3>
+          <p>Aesthetic</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="aesthetic">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/aesthetic3.jpg" alt="Crescent moon through night clouds">
+        <div class="portfolio-overlay">
+          <h3>Crescent Dreams</h3>
+          <p>Aesthetic</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item reveal" data-category="macro">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/macro2.jpg" alt="Water droplets on green leaf">
+        <div class="portfolio-overlay">
+          <h3>Rain Drops</h3>
+          <p>Macro</p>
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-category="macro">
+        <button class="admin-edit-btn" title="Edit Image">✎</button>
+        <img src="images/macro3.jpg" alt="Wet leaf close-up detail">
+        <div class="portfolio-overlay">
+          <h3>Emerald Drops</h3>
+          <p>Macro</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section achievements" id="achievements">
+    <div class="section-header reveal">
+      <span class="section-tag">Milestones</span>
+      <h2 class="section-title">Results & Achievements</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="achievements-grid reveal">
+      <div class="achievement-card">
+        <div class="achievement-number" data-count="50">0</div>
+        <div class="achievement-label">Projects Completed</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-number" data-count="20">0</div>
+        <div class="achievement-label">Happy Clients</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-number" data-count="5">0</div>
+        <div class="achievement-label">Awards Won</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-number" data-count="18">0</div>
+        <div class="achievement-label">Exhibitions</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section class="section tools" id="tools">
+    <div class="section-header reveal">
+      <span class="section-tag">Equipment & Tools</span>
+      <h2 class="section-title">Tools & Platforms I Use</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="tools-grid reveal">
+      <div class="tool-item">
+        <span class="tool-icon">📷</span>
+        <h4>Canon EOS R5</h4>
+        <p>Primary Camera</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">🖥️</span>
+        <h4>Adobe Lightroom</h4>
+        <p>Photo Editing</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">🎨</span>
+        <h4>Adobe Photoshop</h4>
+        <p>Advanced Retouching</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">🎬</span>
+        <h4>DaVinci Resolve</h4>
+        <p>Video Editing</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">✏️</span>
+        <h4>Canva</h4>
+        <p>Social Media Design</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">📋</span>
+        <h4>Trello</h4>
+        <p>Project Management</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">📊</span>
+        <h4>Meta Ads Manager</h4>
+        <p>Marketing & Ads</p>
+      </div>
+      <div class="tool-item">
+        <span class="tool-icon">💼</span>
+        <h4>Google Workspace</h4>
+        <p>Business Operations</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials" id="testimonials">
+    <div class="section-header reveal">
+      <span class="section-tag">Client Love</span>
+      <h2 class="section-title">What People Say</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="testimonials-wrapper reveal">
+      <div class="testimonial-slide active">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">Francis has an incredible eye for the unseen. The macro shots he took of our garden brought out textures and details we never knew existed. His patience and precision are truly unmatched.</p>
+        <p class="testimonial-author">Elena Valdez</p>
+        <p class="testimonial-role">Macro Photography Client</p>
+      </div>
+      <div class="testimonial-slide">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">We commissioned Francis to capture the landscapes around our eco-resort, and the results were breathtaking. He perfectly translated the raw beauty and serenity of nature into every frame.</p>
+        <p class="testimonial-author">David Alcantara</p>
+        <p class="testimonial-role">Nature & Landscape Client</p>
+      </div>
+      <div class="testimonial-slide">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">Working with Francis was a dream. He understood the exact mood and visual harmony we wanted for our brand campaign. His aesthetic shots are not just photos; they are expressive pieces of art.</p>
+        <p class="testimonial-author">Sophia Lorenzo</p>
+        <p class="testimonial-role">Aesthetic Campaign Client</p>
+      </div>
+      <div class="testimonial-slide">
+        <div class="testimonial-quote">"</div>
+        <p class="testimonial-text">The way Francis captures the rhythm of the city is phenomenal. His street photography tells genuine, unscripted stories of everyday life. Each photo feels alive and authentic.</p>
+        <p class="testimonial-author">Miguel Santos</p>
+        <p class="testimonial-role">Street Photography Enthusiast</p>
+      </div>
+      <div class="testimonial-nav" id="testimonial-nav">
+        <button class="testimonial-dot active" data-slide="0"></button>
+        <button class="testimonial-dot" data-slide="1"></button>
+        <button class="testimonial-dot" data-slide="2"></button>
+        <button class="testimonial-dot" data-slide="3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" id="cta">
+    <div class="reveal">
+      <span class="cta-tag">Let's Create Together</span>
+      <h2>Let's Work Together to <em>Capture Your Story</em></h2>
+      <p>Have a project in mind? I'd love to hear about your vision and bring it to life through the art of photography.
+      </p>
+      <a href="#contact" class="cta-btn">Get in Touch →</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="section-header reveal">
+      <span class="section-tag">Say Hello</span>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <h3>Let's Start a Conversation</h3>
+        <p>Whether you're looking to capture the raw beauty of nature, the candid rhythm of the streets, the unseen details of a macro world, or a unique aesthetic vision — I'm here for it. Let's create something beautiful together.</p>
+        <div class="contact-item">
+          <div class="contact-item-icon">📧</div>
+          <div class="contact-item-text">
+            <h4>Email</h4>
+            <p>yuuxxiigenshin@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-text">
+            <h4>Phone</h4>
+            <p>+63 912 345 6789</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <h4>Location</h4>
+            <p>Philippines</p>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="#" class="social-link" aria-label="Instagram">📷</a>
+          <a href="#" class="social-link" aria-label="Facebook">📘</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="How can I help you?">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo">Francis John Jubay<span>.</span></div>
+    <p class="footer-text">© 2026 Francis John Jubay. All rights reserved. | Crafted with 📷 and ❤️</p>
+  </footer>
+
+  <script>
+    // ===== Preloader =====
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('preloader').classList.add('hidden');
+      }, 800);
+    });
+
+    // ===== Navbar Scroll Effect =====
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // ===== Mobile Nav Toggle =====
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // ===== Scroll Reveal =====
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // ===== Portfolio Filter =====
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = 'block';
+            item.style.animation = 'fadeIn 0.5s ease forwards';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // ===== Lightbox =====
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    portfolioItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // ===== Testimonial Slider =====
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const dots = document.querySelectorAll('.testimonial-dot');
+    let currentSlide = 0;
+    let testimonialInterval;
+
+    function showSlide(index) {
+      slides.forEach(s => s.classList.remove('active'));
+      dots.forEach(d => d.classList.remove('active'));
+      slides[index].classList.add('active');
+      dots[index].classList.add('active');
+      currentSlide = index;
+    }
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        showSlide(parseInt(dot.dataset.slide));
+        resetAutoSlide();
+      });
+    });
+
+    function autoSlide() {
+      testimonialInterval = setInterval(() => {
+        const next = (currentSlide + 1) % slides.length;
+        showSlide(next);
+      }, 5000);
+    }
+
+    function resetAutoSlide() {
+      clearInterval(testimonialInterval);
+      autoSlide();
+    }
+
+    autoSlide();
+
+    // ===== Counter Animation =====
+    const counters = document.querySelectorAll('.achievement-number');
+    let counterAnimated = false;
+
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !counterAnimated) {
+          counterAnimated = true;
+          counters.forEach(counter => {
+            const target = parseInt(counter.dataset.count);
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+
+            const updateCounter = () => {
+              current += step;
+              if (current < target) {
+                counter.textContent = Math.floor(current) + '+';
+                requestAnimationFrame(updateCounter);
+              } else {
+                counter.textContent = target + '+';
+              }
+            };
+
+            updateCounter();
+          });
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const achievementsSection = document.querySelector('.achievements-grid');
+    if (achievementsSection) {
+      counterObserver.observe(achievementsSection);
+    }
+
+    // ===== Admin Mode Toggle (SECRET: Click logo 5 times) =====
+    const logo = document.querySelector('.nav-logo');
+    let clickCount = 0;
+
+    logo.addEventListener('click', (e) => {
+      // Don't prevent default, just count
+      clickCount++;
+      if (clickCount === 5) {
+        const password = prompt('Enter Admin Password to enable editing:');
+        if (password === 'jubayadmin') { // Simulated password
+          document.body.classList.add('admin-mode');
+          alert('Admin Mode Enabled. You can now edit images.');
+          clickCount = 0;
+        } else {
+          alert('Access Denied.');
+          clickCount = 0;
+        }
+      }
+
+      // Reset counter after 3 seconds of inactivity
+      setTimeout(() => { clickCount = 0; }, 3000);
+    });
+
+    // ===== Admin Edit Functionality =====
+    document.querySelectorAll('.admin-edit-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent lightbox
+        const item = btn.closest('.portfolio-item');
+        const img = item.querySelector('img');
+        const title = item.querySelector('h3');
+
+        const newSrc = prompt('Enter new image URL or path:', img.src);
+        if (newSrc) img.src = newSrc;
+
+        const newTitle = prompt('Enter new title:', title.textContent);
+        if (newTitle) title.textContent = newTitle;
+      });
+    });
+
+    // ===== Contact Form =====
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = contactForm.querySelector('.submit-btn');
+      btn.textContent = 'Message Sent! ✓';
+      btn.style.background = 'var(--color-accent)';
+      btn.style.color = 'var(--color-bg-primary)';
+      btn.style.borderColor = 'var(--color-accent)';
+
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        btn.style.color = '';
+        btn.style.borderColor = '';
+        contactForm.reset();
+      }, 3000);
+    });
+  </script>
+
+</body>
+
+</html>
