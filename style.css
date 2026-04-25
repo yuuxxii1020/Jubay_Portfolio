@@ -1407,21 +1407,21 @@ ul, ol {
 }
 
 @media print {
-  body {
-    background: white;
-    color: black;
+  * {
+    background: white !important;
+    color: black !important;
   }
 
   nav, footer {
-    display: none;
+    display: none !important;
   }
 
   section {
     page-break-inside: avoid;
+    break-inside: avoid;
   }
 
-  a {
-    text-decoration: none;
-    color: black;
+  body {
+    margin: 0;
   }
 }
